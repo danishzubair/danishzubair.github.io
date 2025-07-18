@@ -252,7 +252,6 @@ section {
 /* About Section */
 #about {
     padding: 80px 0;
-    background: url('https://miro.medium.com/v2/resize:fit:1400/0*n7BG3NlCMhzCPBpE') no-repeat center center/cover;
 }
 
 .about-content {
@@ -311,6 +310,8 @@ section {
 /* Services Section */
 #services {
     padding: 80px 0;
+    background: url('https://miro.medium.com/v2/resize:fit:1400/0*n7BG3NlCMhzCPBpE') no-repeat center center/cover;
+
 }
 
 .services-content {
