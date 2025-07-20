@@ -252,6 +252,7 @@ section {
 /* About Section */
 #about {
     padding: 80px 0;
+    background: url('https://www.dropbox.com/scl/fi/makps9cljb9ioj5e8xjv5/ChatGPT-Image-Jul-20-2025-05_34_28-PM.png?rlkey=u7yfskzhztavn3gv6872tcmcl&raw=1') no-repeat center center/cover;
 }
 
 .about-content {
