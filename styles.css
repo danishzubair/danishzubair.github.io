@@ -438,6 +438,7 @@ section {
 /* Contact Section */
 #contact {
     padding: 80px 0;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSUXgn19tvrVBWtheJMBAfNLL5lE31sYbjZA&s') no-repeat center center/cover;
 }
 
 .contact-content {
