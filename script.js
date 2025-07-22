@@ -1,7 +1,7 @@
 const toggle = document.querySelector('.toggle');
 const menu = document.querySelector('.menu');
 const text = document.querySelector('.text');
-const words = ['Software Engineer', 'Full-Stack Developer', 'Problem Solver'];
+const words = ['Software Engineering Student', 'Full-Stack Developer', 'Problem Solver', 'Award-Winning AI Project Leader'];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
