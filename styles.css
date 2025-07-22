@@ -514,6 +514,11 @@ footer {
     color: var(--white);
 }
 
+#achievements {
+    padding: 80px 0;
+    background: url('https://img.freepik.com/premium-vector/dark-blue-background-with-blue-gradient_1055519-2175.jpg?semt=ais_hybrid&w=740') no-repeat center center/cover;
+}
+
 .achievement-list {
     list-style: none;
     padding: 0;
