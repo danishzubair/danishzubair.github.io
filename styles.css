@@ -378,11 +378,14 @@ section {
 }
 
 .portfolio-box:nth-child(1) {
-    background-image: url('https://miro.medium.com/v2/resize:fit:409/1*x53VGsJAqhN85ReUdQLPzA.jpeg');
+    background-image: url('https://www.dropbox.com/scl/fi/j5sy52ighaj29xfkskb7p/1_x53VGsJAqhN85ReUdQLPzA.png?rlkey=y4g44p02nuoa0vb09y49pbg8y&st=fn4o4axv&raw=1');
 }
 
 .portfolio-box:nth-child(2) {
     background-image: url('https://images.icon-icons.com/2699/PNG/512/python_logo_icon_168886.png');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .portfolio-box:nth-child(3) {
