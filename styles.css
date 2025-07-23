@@ -108,6 +108,7 @@ menu {
 .menu a.active {
     color: var(--white); 
     box-shadow: 0 0 20px var(--accent); 
+}
 
 /* Toggle hamburger */
 .toggle {
