@@ -73,31 +73,41 @@ header {
 }
 
 /* Navigation */
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.menu {
+menu {
     display: flex;
     list-style: none;
     gap: 3rem;
 }
 
 .menu a {
+    position: relative; 
     color: var(--white);
     font-weight: 500;
     text-decoration: none;
     font-size: 1.6rem;
-    transition: 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.menu a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 0;
+    height: 2px; 
+    background: #007ba5; 
+    transition: width 0.3s ease; 
+}
+
+.menu a:hover::after,
+.menu a.active::after {
+    width: 100%; 
 }
 
 .menu a:hover,
 .menu a.active {
-    color: var(--accent);
-}
+    color: var(--white); 
+    box-shadow: 0 0 20px var(--accent); 
 
 /* Toggle hamburger */
 .toggle {
